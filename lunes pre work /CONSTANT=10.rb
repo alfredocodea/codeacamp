@@ -1,0 +1,10 @@
+CONSTANT=10
+title="data"
+description="general_information"
+number_of_likes=15
+first_name="alfredo"
+last_name="gonzalez"
+where_do_you_live="insurgentes"
+house_Number="476"
+state="mexico"
+zip="06450"
