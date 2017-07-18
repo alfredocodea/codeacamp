@@ -1,7 +1,9 @@
 first_name = "Rogelio"
- first_name.upcase!
 last_name = "manzano"
- last_name.capitalize
-p mensaje = "Nombre Correcto"
+mensaje = "Nombre Correcto"
+
+first_name.upcase!
+last_name.capitalize!
+mensaje.downcase!
 
 puts mensaje if first_name == "ROGELIO" && last_name == "Manzano"

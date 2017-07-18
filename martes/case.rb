@@ -1,6 +1,5 @@
 
-
-def edad = 23
+edad = 23
  case edad
  when 20..29
   puts "You are in the twenties"
@@ -11,4 +10,3 @@ def edad = 23
  else
   puts "Out of Range"
  end
-end

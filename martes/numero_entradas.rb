@@ -1,8 +1,15 @@
-def user="Ya"
-i = 7
+def user ()
+count = 0
 loop do
-  i -= 1
-  print "#{7}"
+  p "Ingresa una palabra"
+  
+ i = gets.chomp
+ 
   #condición para romper el loop
-  break if i <= 7
+  break if i == "ya"
+  count +=1
 end
+  "Nùmero de entradas del usuario #{count}"
+end
+
+p user 
